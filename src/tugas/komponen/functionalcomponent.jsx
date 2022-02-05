@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FunctionalComponent = ({nama}) => {
+const Functionalcomponent = ({nama}) => {
     const [value, setValue] = useState(0);
     //penggunaan hooks
     //agar bisa menggunakan state di functional component
@@ -24,14 +24,12 @@ const FunctionalComponent = ({nama}) => {
         </div>
     )
 }
-FunctionalComponent.defaultProps = {
+Functionalcomponent.defaultProps = {
     nama : "User"
 }
+
 // nilai default tidak terpakai ketika tdk menggunakan props
 // jika menggunakan isRequired maka props wajib ada, jika tdk ada maka akan memunculkan error
 
-export default FunctionalComponent;
+export default Functionalcomponent;
 //docker
-//gitlens melihat codingan orang lain
-//eslint
-//jest runner (run function)

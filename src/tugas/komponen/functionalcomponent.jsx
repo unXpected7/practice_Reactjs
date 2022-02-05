@@ -1,10 +1,8 @@
 import { useState } from "react";
 
-const Functionalcomponent = ({nama}) => {
+const Functionalcomponent = ({age}) => {
     const [value, setValue] = useState(0);
-    //penggunaan hooks
-    //agar bisa menggunakan state di functional component
-    //props disini berupa {nama}
+    //use hooks
     const handlePlus = () => {
         setValue(value + 1);
     }
@@ -13,23 +11,28 @@ const Functionalcomponent = ({nama}) => {
         if(value > 0)
         setValue(value - 1);
     }
+    const ages = () => {
+        alert("Sorry dude,your time has come")
+    }
 
     return(
         <div>
-            <h1>Membuat Component dengan functional componennt</h1>
-            <h2>hello {nama} my world</h2>
+              
+            <h3>are you really want set your age {age} ?</h3>
+            <h4>set age what you really want</h4>
             <button onClick={handleMin}>-</button>
             <span>{"  "}{value}{" "}</span>
             <button onClick={handlePlus}>+</button>
+            <span>years</span>
+            <br />
+            <button onClick={ages}>Okay</button> 
         </div>
     )
 }
-Functionalcomponent.defaultProps = {
-    nama : "User"
-}
-
-// nilai default tidak terpakai ketika tdk menggunakan props
-// jika menggunakan isRequired maka props wajib ada, jika tdk ada maka akan memunculkan error
-
+// Functionalcomponent.defaultProps = {
+//     nama : "User"
+// }
 export default Functionalcomponent;
-//docker
+
+
+

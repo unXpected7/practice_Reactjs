@@ -1,21 +1,11 @@
 import React from "react";
-// import {PropTypes} from "prop-types"
 
 class Classcomponent extends React.Component {
-    // constructor(props){
-    //     super(props)
-
-    //     this.state = {
-    //         value : 0
-    //     }
+ 
         state = {
             value : 0
         }
 
-        // this.handlePlus = this.handlePlus.bind(this);
-        // this.handleMin = this.handleMin.bind(this);
-
-    // }
     handlePlus = () => {
         this.setState({value: this.state.value + 1})
     }
@@ -24,26 +14,26 @@ class Classcomponent extends React.Component {
         this.setState({value: this.state.value - 1})
         }
     }
-
+    loan = () => {
+        alert("Sorry dude,your you are broke, we cannot give you loan")
+    }
 
     render() {
         return(
             <div>
-                <h1>This component made with class component</h1> 
-                <h2>hello my world{this.props.nama}</h2>
+                <h1>how much money what you want?</h1> 
+                <h2>are you sure want {this.props.money} </h2>
                 <button onClick={this.handleMin}>-</button>
                 <span>{"  "} {this.state.value} {"  "}</span>
                 <button onClick={this.handlePlus}>+</button>
+                <span>Dollars</span>
+                <br/>
+                <button onClick={this.loan}>I'm sure,cz i've 2 kidneys</button>
             </div>
             
         )
     }
 }
 
-// classcomponent.propTypes = {
-//     nama: PropTypes.string.isRequired
-// }
-// //conoh penggunaan proptypes pada class
-//jika penambahan pramatere string maka props harus nerisi string
 
 export default Classcomponent;

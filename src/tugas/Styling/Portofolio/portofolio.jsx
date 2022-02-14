@@ -13,17 +13,17 @@ export default class Portofolio extends React.Component {
          </p>
         </div>
         <div className="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
                 <h6 class="fs-5">Experience</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores architecto earum ad eos? Velit numquam quidem distinctio, vero at repudiandae nulla, adipisci, corporis molestias dolore quaerat eveniet. Repellendus, blanditiis
                 </p>
             </div>   
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
                 <h6>Education</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores architecto earum ad eos? Velit numquam quidem distinctio, vero at repudiandae nulla, adipisci, corporis molestias dolore quaerat eveniet. Repellendus, blanditiis
                     </p>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
                 <h6>Achivement</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores architecto earum ad eos? Velit numquam quidem distinctio, vero at repudiandae nulla, adipisci, corporis molestias dolore quaerat eveniet. Repellendus, blanditiis
                 </p>

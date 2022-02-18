@@ -1,3 +1,4 @@
+import ValiationForm from "./tugas/Form/validation";
 import Komponen from "./tugas/komponen";
 import Styling from "./tugas/Styling";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
         <Komponen/>
         <Styling/>
+        <ValiationForm/>
     </div>
   );
 }

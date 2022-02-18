@@ -1,5 +1,6 @@
 import ValiationForm from "./tugas/Form/validation";
 import Komponen from "./tugas/komponen";
+import LifecycleComponent from "./tugas/LifeCycleComponent/LifeCycle";
 import Styling from "./tugas/Styling";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <Komponen/>
         <Styling/>
         <ValiationForm/>
+        <LifecycleComponent/>
     </div>
   );
 }

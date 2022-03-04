@@ -18,6 +18,8 @@ const Navigation = () =>{
                     <Nav.Link ><Link to="/datafetching">Data Fetching</Link></Nav.Link>
                     <Nav.Link ><Link to="/form">Form</Link></Nav.Link>
                     <Nav.Link ><Link to="/styling">Styling</Link></Nav.Link>
+                    <Nav.Link ><Link to="/redux">Redux</Link></Nav.Link>
+
                   </Nav>
                 </Navbar.Collapse>
               </Container>

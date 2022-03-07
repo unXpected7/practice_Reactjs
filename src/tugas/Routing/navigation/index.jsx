@@ -14,7 +14,7 @@ const Navigation = () =>{
                   <Nav className="me-auto">
                     <Nav.Link ><Link to="/">Home</Link></Nav.Link>
                     <Nav.Link ><Link to="/lifecycle">lifecyle</Link></Nav.Link>
-                    <Nav.Link ><Link to="/komponen">komponen</Link></Nav.Link>
+                    {/* <Nav.Link ><Link to="/komponen">komponen</Link></Nav.Link> */}
                     <Nav.Link ><Link to="/datafetching">Data Fetching</Link></Nav.Link>
                     <Nav.Link ><Link to="/form">Form</Link></Nav.Link>
                     <Nav.Link ><Link to="/styling">Styling</Link></Nav.Link>
